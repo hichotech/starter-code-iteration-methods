@@ -35,7 +35,7 @@ printKata(4, userage)
  //KATA 5
   const userageactive =  users
   .filter(user => user.isActive===true)
-  .find(users =>users.age >= 38)
+  .find(users =>users.age > 38)
   
   printKata(5, userageactive)
 
